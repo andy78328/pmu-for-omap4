@@ -1,0 +1,1023 @@
+  CHK     include/generated/uapi/linux/version.h
+  HOSTCC  scripts/basic/fixdep
+  CHK     include/generated/utsrelease.h
+  HOSTCC  scripts/dtc/checks.o
+  HOSTCC  scripts/genksyms/genksyms.o
+  HOSTCC  scripts/dtc/data.o
+  HOSTCC  scripts/dtc/dtc-lexer.lex.o
+  HOSTCC  scripts/dtc/dtc-parser.tab.o
+  HOSTCC  scripts/genksyms/lex.lex.o
+  HOSTCC  scripts/dtc/dtc.o
+  CC      scripts/mod/empty.o
+  HOSTCC  scripts/dtc/flattree.o
+  HOSTCC  scripts/mod/mk_elfconfig
+  MKELF   scripts/mod/elfconfig.h
+  HOSTCC  scripts/mod/file2alias.o
+  HOSTCC  scripts/genksyms/parse.tab.o
+  HOSTCC  scripts/kallsyms
+  HOSTLD  scripts/genksyms/genksyms
+  HOSTCC  scripts/dtc/fstree.o
+  HOSTCC  scripts/dtc/livetree.o
+  HOSTCC  scripts/dtc/srcpos.o
+make[1]: `include/generated/mach-types.h' is up to date.
+  HOSTCC  scripts/dtc/treesource.o
+  HOSTCC  scripts/pnmtologo
+  HOSTCC  scripts/conmakehash
+  HOSTCC  scripts/dtc/util.o
+  HOSTCC  scripts/mod/modpost.o
+  HOSTLD  scripts/dtc/dtc
+  HOSTCC  scripts/bin2c
+  HOSTCC  scripts/sortextable
+  CC      kernel/bounds.s
+  HOSTCC  scripts/mod/sumversion.o
+  GEN     include/generated/bounds.h
+  CC      arch/arm/kernel/asm-offsets.s
+  GEN     include/generated/asm-offsets.h
+  CALL    scripts/checksyscalls.sh
+  HOSTLD  scripts/mod/modpost
+  DTC     arch/arm/boot/dts/omap2420-h4.dtb
+  DTC     arch/arm/boot/dts/omap3-beagle.dtb
+  DTC     arch/arm/boot/dts/omap3-beagle-xm.dtb
+  DTC     arch/arm/boot/dts/omap3-evm.dtb
+  DTC     arch/arm/boot/dts/omap3-tobi.dtb
+  DTC     arch/arm/boot/dts/omap4-panda.dtb
+  DTC     arch/arm/boot/dts/omap4-panda-a4.dtb
+  DTC     arch/arm/boot/dts/omap4-panda-es.dtb
+  DTC     arch/arm/boot/dts/omap4-var-som.dtb
+  DTC     arch/arm/boot/dts/omap4-sdp.dtb
+  DTC     arch/arm/boot/dts/omap5-evm.dtb
+  DTC     arch/arm/boot/dts/am335x-evm.dtb
+  DTC     arch/arm/boot/dts/am335x-evmsk.dtb
+  DTC     arch/arm/boot/dts/am335x-bone.dtb
+  CHK     include/generated/compile.h
+  CC      init/main.o
+  HOSTCC  usr/gen_init_cpio
+  CC      arch/arm/nwfpe/fpa11.o
+  UPD     include/generated/compile.h
+  CC      arch/arm/nwfpe/fpa11_cpdo.o
+  CC      arch/arm/nwfpe/fpa11_cpdt.o
+  CC      arch/arm/vfp/vfpmodule.o
+  GEN     usr/initramfs_data.cpio
+  CC      arch/arm/nwfpe/fpa11_cprt.o
+  AS      usr/initramfs_data.o
+  LD      usr/built-in.o
+  CC      arch/arm/nwfpe/fpmodule.o
+  CC      init/do_mounts.o
+  AS      arch/arm/vfp/entry.o
+  AS      arch/arm/vfp/vfphw.o
+  CC      arch/arm/vfp/vfpsingle.o
+  CC      arch/arm/nwfpe/fpopcode.o
+  CC      arch/arm/nwfpe/softfloat.o
+  CC      arch/arm/vfp/vfpdouble.o
+  CC      arch/arm/nwfpe/single_cpdo.o
+  CC      arch/arm/nwfpe/double_cpdo.o
+  AS      arch/arm/nwfpe/entry.o
+  CC      init/do_mounts_rd.o
+  CC      init/do_mounts_initrd.o
+  LD      arch/arm/vfp/vfp.o
+  LD      arch/arm/vfp/built-in.o
+  CC      init/initramfs.o
+  CC      arch/arm/kernel/elf.o
+  LD      arch/arm/nwfpe/nwfpe.o
+  LD      arch/arm/nwfpe/built-in.o
+  AS      arch/arm/kernel/entry-armv.o
+  CC      arch/arm/mm/dma-mapping.o
+  CC      arch/arm/common/gic.o
+  AS      arch/arm/kernel/entry-common.o
+  CC      arch/arm/kernel/irq.o
+  CC      init/calibrate.o
+  LD      arch/arm/common/built-in.o
+  LD      arch/arm/net/built-in.o
+  CC      arch/arm/kernel/opcodes.o
+  CC      init/init_task.o
+  CC      arch/arm/kernel/process.o
+  CC      arch/arm/kernel/ptrace.o
+  CC      arch/arm/mm/extable.o
+  CC      arch/arm/mm/fault.o
+  CC      init/version.o
+  CC      arch/arm/kernel/return_address.o
+  LD      init/mounts.o
+  LD      init/built-in.o
+  CC      arch/arm/mm/init.o
+  LD      arch/arm/crypto/built-in.o
+  CC      arch/arm/mm/iomap.o
+  CC      arch/arm/kernel/sched_clock.o
+arch/arm/kernel/return_address.c:62:2: warning: #warning "TODO: return_address should use unwind tables"
+arch/arm/kernel/return_address.c:62:2: warning: #warning "TODO: return_address should use unwind tables"
+  CC      arch/arm/mach-omap2/id.o
+  CC      arch/arm/kernel/setup.o
+  CC      arch/arm/mm/fault-armv.o
+  CC      arch/arm/mm/flush.o
+  CC      arch/arm/mm/idmap.o
+  CC      arch/arm/mach-omap2/io.o
+  CC      arch/arm/kernel/signal.o
+  CC      arch/arm/mm/ioremap.o
+  CC      arch/arm/mm/mmap.o
+  CC      arch/arm/mach-omap2/control.o
+  CC      arch/arm/kernel/stacktrace.o
+  CC      arch/arm/mm/pgd.o
+  CC      arch/arm/kernel/sys_arm.o
+  CC      arch/arm/mach-omap2/mux.o
+  CC      arch/arm/plat-omap/sram.o
+  CC      arch/arm/mm/mmu.o
+  CC      arch/arm/kernel/time.o
+  CC      arch/arm/plat-omap/dma.o
+  CC      arch/arm/kernel/traps.o
+  CC      arch/arm/mach-omap2/devices.o
+  CC      arch/arm/mm/vmregion.o
+  CC      arch/arm/mach-omap2/fb.o
+  CC      arch/arm/kernel/atags_parse.o
+  CC      arch/arm/mm/proc-syms.o
+  CC      arch/arm/kernel/atags_proc.o
+  CC      arch/arm/plat-omap/counter_32k.o
+  CC      arch/arm/mach-omap2/serial.o
+  CC      arch/arm/plat-omap/dmtimer.o
+  CC      arch/arm/mm/alignment.o
+  CC      arch/arm/kernel/etm.o
+  CC      arch/arm/mach-omap2/gpmc.o
+  CC      arch/arm/kernel/armksyms.o
+  CC      arch/arm/mm/highmem.o
+  CC      arch/arm/plat-omap/i2c.o
+  LD      arch/arm/plat-omap/built-in.o
+  CC      arch/arm/kernel/module.o
+  AS      arch/arm/mm/abort-ev6.o
+  AS      arch/arm/kernel/sleep.o
+  AS      arch/arm/mm/abort-ev7.o
+  CC      kernel/fork.o
+  AS      arch/arm/mm/pabort-v6.o
+  AS      arch/arm/mm/pabort-v7.o
+  AS      arch/arm/mm/cache-v6.o
+  AS      arch/arm/mm/cache-v7.o
+  CC      arch/arm/mm/copypage-v6.o
+  CC      arch/arm/kernel/suspend.o
+  CC      arch/arm/mach-omap2/timer.o
+  CC      arch/arm/mm/context.o
+  CC      arch/arm/kernel/smp.o
+  CC      arch/arm/mach-omap2/pm.o
+  AS      arch/arm/mm/tlb-v6.o
+  AS      arch/arm/mm/tlb-v7.o
+  AS      arch/arm/mm/proc-v6.o
+  AS      arch/arm/mm/proc-v7.o
+  CC      arch/arm/mm/cache-l2x0.o
+  CC      arch/arm/kernel/smp_tlb.o
+  CC      arch/arm/mach-omap2/common.o
+  CC      arch/arm/kernel/smp_scu.o
+  LD      arch/arm/mm/built-in.o
+  CC      kernel/exec_domain.o
+  CC      arch/arm/mach-omap2/gpio.o
+  CC      arch/arm/mach-omap2/dma.o
+  CC      arch/arm/kernel/smp_twd.o
+  CC      arch/arm/mach-omap2/wd_timer.o
+  CC      arch/arm/mach-omap2/display.o
+  CC      arch/arm/kernel/arch_timer.o
+  CC      kernel/panic.o
+  CC      arch/arm/mach-omap2/i2c.o
+  CC      arch/arm/kernel/machine_kexec.o
+  CC      mm/filemap.o
+  CC      arch/arm/mach-omap2/hdq1w.o
+  AS      arch/arm/kernel/relocate_kernel.o
+  CC      kernel/printk.o
+  CC      arch/arm/kernel/kprobes.o
+  CC      arch/arm/mach-omap2/omap_hwmod.o
+  CC      arch/arm/kernel/kprobes-common.o
+  CC      arch/arm/kernel/patch.o
+  CC      arch/arm/kernel/kprobes-arm.o
+  CC      mm/mempool.o
+  CC      arch/arm/mach-omap2/omap_device.o
+  CC      arch/arm/kernel/sys_oabi-compat.o
+  CC      kernel/cpu.o
+  CC      arch/arm/mach-omap2/sram.o
+  CC      arch/arm/kernel/thumbee.o
+  CC      mm/oom_kill.o
+  CC      arch/arm/kernel/unwind.o
+  CC      kernel/exit.o
+  CC      arch/arm/mach-omap2/irq.o
+  CC      arch/arm/kernel/devtree.o
+  CC      mm/fadvise.o
+  CC      arch/arm/mach-omap2/omap_hwmod_common_data.o
+  CC      arch/arm/kernel/hw_breakpoint.o
+  AS      arch/arm/mach-omap2/omap-smc.o
+  CC      arch/arm/mach-omap2/omap-secure.o
+  CC      mm/maccess.o
+  CC      arch/arm/mach-omap2/prm44xx.o
+  CC      arch/arm/kernel/perf_event.o
+  CC      mm/page_alloc.o
+  CC      arch/arm/mach-omap2/mcbsp.o
+  CC      kernel/itimer.o
+  CC      arch/arm/mach-omap2/omap_twl.o
+  CC      arch/arm/kernel/perf_event_cpu.o
+  CC      arch/arm/mach-omap2/sdrc.o
+  TIMEC   kernel/timeconst.h
+  CC      kernel/softirq.o
+  CC      arch/arm/mach-omap2/omap-smp.o
+  CC      arch/arm/kernel/topology.o
+  AS      arch/arm/mach-omap2/omap-headsmp.o
+  CC      arch/arm/mach-omap2/omap-hotplug.o
+  CC      arch/arm/kernel/io.o
+  AS      arch/arm/kernel/head.o
+  CC      arch/arm/mach-omap2/omap4-common.o
+  LDS     arch/arm/kernel/vmlinux.lds
+  LD      arch/arm/kernel/built-in.o
+  CC      kernel/resource.o
+  CC      arch/arm/mach-omap2/omap-wakeupgen.o
+  CC      mm/page-writeback.o
+  CC      mm/readahead.o
+  AS      arch/arm/mach-omap2/sleep44xx.o
+  AS      arch/arm/mach-omap2/sram242x.o
+  AS      arch/arm/mach-omap2/sram243x.o
+  AS      arch/arm/mach-omap2/sram34xx.o
+  CC      arch/arm/mach-omap2/omap2-restart.o
+  CC      kernel/sysctl.o
+  CC      arch/arm/mach-omap2/omap3-restart.o
+  CC      kernel/sysctl_binary.o
+  CC      arch/arm/mach-omap2/mux2420.o
+  CC      arch/arm/mach-omap2/mux2430.o
+  CC      arch/arm/mach-omap2/mux34xx.o
+  CC      arch/arm/mach-omap2/mux44xx.o
+  CC      kernel/capability.o
+  CC      mm/swap.o
+  CC      arch/arm/mach-omap2/sdrc2xxx.o
+  CC      kernel/ptrace.o
+  CC      arch/arm/mach-omap2/opp.o
+  CC      mm/truncate.o
+  CC      arch/arm/mach-omap2/opp3xxx_data.o
+  CC      arch/arm/mach-omap2/opp4xxx_data.o
+  CC      fs/open.o
+  CC      kernel/timer.o
+  CC      arch/arm/mach-omap2/omap-pm-noop.o
+  CC      arch/arm/mach-omap2/pm24xx.o
+  CC      mm/vmscan.o
+  AS      arch/arm/mach-omap2/sleep24xx.o
+  CC      arch/arm/mach-omap2/pm34xx.o
+  CC      fs/read_write.o
+  AS      arch/arm/mach-omap2/sleep34xx.o
+  CC      arch/arm/mach-omap2/pm44xx.o
+  CC      kernel/user.o
+  CC      arch/arm/mach-omap2/omap-mpuss-lowpower.o
+  CC      fs/file_table.o
+  CC      kernel/signal.o
+  CC      arch/arm/mach-omap2/pm-debug.o
+  CC      fs/super.o
+  CC      mm/shmem.o
+  CC      arch/arm/mach-omap2/prm_common.o
+  CC      arch/arm/mach-omap2/cm_common.o
+  CC      arch/arm/mach-omap2/prm2xxx_3xxx.o
+  CC      fs/char_dev.o
+  CC      arch/arm/mach-omap2/prm2xxx.o
+  CC      kernel/sys.o
+  CC      arch/arm/mach-omap2/cm2xxx.o
+  CC      fs/stat.o
+  CC      mm/util.o
+  CC      arch/arm/mach-omap2/prm3xxx.o
+  CC      fs/exec.o
+  CC      arch/arm/mach-omap2/cm3xxx.o
+  CC      kernel/kmod.o
+  CC      mm/mmzone.o
+  CC      arch/arm/mach-omap2/vc3xxx_data.o
+  CC      mm/vmstat.o
+  CC      arch/arm/mach-omap2/vp3xxx_data.o
+  CC      kernel/workqueue.o
+  CC      arch/arm/mach-omap2/prm33xx.o
+  CC      fs/pipe.o
+  CC      mm/backing-dev.o
+  CC      arch/arm/mach-omap2/cm33xx.o
+  CC      arch/arm/mach-omap2/cminst44xx.o
+  CC      arch/arm/mach-omap2/cm44xx.o
+  CC      arch/arm/mach-omap2/prcm_mpu44xx.o
+  CC      arch/arm/mach-omap2/prminst44xx.o
+  CC      fs/namei.o
+  CC      mm/mm_init.o
+  CC      kernel/pid.o
+  CC      arch/arm/mach-omap2/vc44xx_data.o
+  CC      arch/arm/mach-omap2/vp44xx_data.o
+  CC      arch/arm/mach-omap2/voltage.o
+  CC      arch/arm/mach-omap2/vc.o
+  CC      kernel/task_work.o
+  CC      mm/mmu_context.o
+  CC      arch/arm/mach-omap2/vp.o
+  CC      kernel/rcupdate.o
+  CC      mm/percpu.o
+  CC      arch/arm/mach-omap2/voltagedomains2xxx_data.o
+  CC      arch/arm/mach-omap2/voltagedomains3xxx_data.o
+  CC      kernel/extable.o
+  CC      arch/arm/mach-omap2/voltagedomains44xx_data.o
+  CC      kernel/params.o
+  CC      arch/arm/mach-omap2/voltagedomains33xx_data.o
+  CC      arch/arm/mach-omap2/powerdomain.o
+  CC      fs/fcntl.o
+  CC      mm/slab_common.o
+  CC      kernel/posix-timers.o
+  CC      arch/arm/mach-omap2/powerdomain-common.o
+  CC      arch/arm/mach-omap2/powerdomains2xxx_data.o
+  CC      arch/arm/mach-omap2/powerdomains2xxx_3xxx_data.o
+  CC      mm/compaction.o
+  CC      arch/arm/mach-omap2/powerdomains3xxx_data.o
+  CC      fs/ioctl.o
+  CC      arch/arm/mach-omap2/powerdomains44xx_data.o
+  CC      arch/arm/mach-omap2/powerdomains33xx_data.o
+  CC      kernel/kthread.o
+  CC      arch/arm/mach-omap2/clockdomain.o
+  CC      fs/readdir.o
+  CC      mm/balloon_compaction.o
+  CC      arch/arm/mach-omap2/clockdomains2xxx_3xxx_data.o
+  CC      kernel/wait.o
+  CC      arch/arm/mach-omap2/clockdomains2420_data.o
+  CC      mm/interval_tree.o
+  CC      arch/arm/mach-omap2/clockdomains2430_data.o
+  CC      arch/arm/mach-omap2/clockdomains3xxx_data.o
+  CC      fs/select.o
+  CC      kernel/kfifo.o
+  CC      arch/arm/mach-omap2/clockdomains44xx_data.o
+  CC      mm/fremap.o
+  CC      arch/arm/mach-omap2/clockdomains33xx_data.o
+  CC      kernel/sys_ni.o
+  CC      kernel/posix-cpu-timers.o
+  CC      arch/arm/mach-omap2/clock.o
+  CC      fs/fifo.o
+  CC      mm/highmem.o
+  CC      fs/dcache.o
+  CC      arch/arm/mach-omap2/clock_common_data.o
+  CC      arch/arm/mach-omap2/clkt_dpll.o
+  CC      kernel/mutex.o
+  CC      arch/arm/mach-omap2/clkt_clksel.o
+  CC      mm/madvise.o
+  CC      arch/arm/mach-omap2/clock2xxx.o
+  CC      kernel/hrtimer.o
+  CC      arch/arm/mach-omap2/clkt2xxx_sys.o
+  CC      mm/memory.o
+  CC      arch/arm/mach-omap2/clkt2xxx_dpllcore.o
+  CC      arch/arm/mach-omap2/clkt2xxx_virt_prcm_set.o
+  CC      arch/arm/mach-omap2/clkt2xxx_apll.o
+  CC      arch/arm/mach-omap2/clkt2xxx_osc.o
+  CC      arch/arm/mach-omap2/clkt2xxx_dpll.o
+  CC      fs/inode.o
+  CC      arch/arm/mach-omap2/clkt_iclk.o
+  CC      kernel/rwsem.o
+  CC      arch/arm/mach-omap2/cclock2420_data.o
+  CC      kernel/nsproxy.o
+  CC      arch/arm/mach-omap2/clock2430.o
+  CC      arch/arm/mach-omap2/cclock2430_data.o
+  CC      arch/arm/mach-omap2/clock3xxx.o
+  CC      mm/mincore.o
+  CC      kernel/srcu.o
+  CC      arch/arm/mach-omap2/clock34xx.o
+  CC      fs/attr.o
+  CC      arch/arm/mach-omap2/clkt34xx_dpll3m2.o
+  CC      kernel/semaphore.o
+  CC      mm/mlock.o
+  CC      arch/arm/mach-omap2/clock3517.o
+  CC      arch/arm/mach-omap2/clock36xx.o
+  CC      fs/bad_inode.o
+  CC      arch/arm/mach-omap2/dpll3xxx.o
+  CC      kernel/notifier.o
+  CC      fs/file.o
+  CC      arch/arm/mach-omap2/cclock3xxx_data.o
+  CC      mm/mmap.o
+  CC      kernel/ksysfs.o
+  CC      arch/arm/mach-omap2/cclock44xx_data.o
+  CC      kernel/cred.o
+  CC      arch/arm/mach-omap2/dpll44xx.o
+  CC      arch/arm/mach-omap2/cclock33xx_data.o
+  CC      fs/filesystems.o
+  CC      arch/arm/mach-omap2/opp2420_data.o
+  CC      kernel/async.o
+  CC      arch/arm/mach-omap2/opp2430_data.o
+  CC      mm/mprotect.o
+  CC      fs/namespace.o
+  CC      arch/arm/mach-omap2/omap_hwmod_2xxx_ipblock_data.o
+  CC      kernel/range.o
+  CC      kernel/groups.o
+  CC      arch/arm/mach-omap2/omap_hwmod_2xxx_3xxx_ipblock_data.o
+  CC      mm/mremap.o
+  CC      arch/arm/mach-omap2/omap_hwmod_2xxx_interconnect_data.o
+  CC      arch/arm/mach-omap2/omap_hwmod_2xxx_3xxx_interconnect_data.o
+  CC      kernel/lglock.o
+  CC      mm/msync.o
+  CC      arch/arm/mach-omap2/omap_hwmod_2420_data.o
+  CC      kernel/smpboot.o
+  CC      mm/rmap.o
+  CC      arch/arm/mach-omap2/omap_hwmod_2430_data.o
+  CC      fs/seq_file.o
+  CC      kernel/events/core.o
+  CC      arch/arm/mach-omap2/omap_hwmod_3xxx_data.o
+  CC      arch/arm/mach-omap2/omap_hwmod_33xx_data.o
+  CC      fs/xattr.o
+  CC      mm/vmalloc.o
+  CC      arch/arm/mach-omap2/omap_hwmod_44xx_data.o
+  CC      arch/arm/mach-omap2/emu.o
+  CC      arch/arm/mach-omap2/pmu.o
+  CC      fs/libfs.o
+  CC      arch/arm/mach-omap2/msdi.o
+  CC      arch/arm/mach-omap2/board-generic.o
+  CC      mm/pagewalk.o
+  CC      arch/arm/mach-omap2/board-h4.o
+  CC      fs/fs-writeback.o
+  CC      mm/pgtable-generic.o
+  CC      arch/arm/mach-omap2/board-2430sdp.o
+  CC      mm/process_vm_access.o
+  CC      arch/arm/mach-omap2/board-apollon.o
+  CC      kernel/events/ring_buffer.o
+  CC      mm/init-mm.o
+  CC      arch/arm/mach-omap2/board-omap3beagle.o
+  CC      mm/bootmem.o
+  CC      kernel/events/callchain.o
+  CC      arch/arm/mach-omap2/board-devkit8000.o
+  CC      kernel/events/hw_breakpoint.o
+  CC      mm/memblock.o
+  CC      fs/pnode.o
+  CC      arch/arm/mach-omap2/board-ldp.o
+  CC      fs/drop_caches.o
+  CC      mm/bounce.o
+  LD      kernel/events/built-in.o
+  CC      kernel/irq/irqdesc.o
+  CC      fs/splice.o
+  CC      arch/arm/mach-omap2/board-omap3logic.o
+  CC      kernel/irq/handle.o
+  CC      arch/arm/mach-omap2/board-overo.o
+  CC      mm/page_io.o
+  CC      kernel/irq/manage.o
+  CC      mm/swap_state.o
+  CC      arch/arm/mach-omap2/board-omap3evm.o
+  CC      fs/sync.o
+  CC      kernel/irq/spurious.o
+  CC      mm/swapfile.o
+  CC      arch/arm/mach-omap2/board-omap3pandora.o
+  CC      kernel/irq/resend.o
+  CC      kernel/irq/chip.o
+  CC      fs/utimes.o
+  CC      arch/arm/mach-omap2/board-3430sdp.o
+  CC      fs/stack.o
+  CC      arch/arm/mach-omap2/board-n8x0.o
+  CC      kernel/irq/dummychip.o
+  CC      fs/fs_struct.o
+  CC      kernel/irq/devres.o
+  CC      arch/arm/mach-omap2/board-rm680.o
+  CC      mm/dmapool.o
+  CC      kernel/irq/generic-chip.o
+  CC      fs/statfs.o
+  CC      arch/arm/mach-omap2/sdram-nokia.o
+  CC      kernel/irq/autoprobe.o
+  CC      mm/slab.o
+  CC      arch/arm/mach-omap2/board-rx51.o
+  CC      fs/buffer.o
+  CC      kernel/irq/irqdomain.o
+  CC      arch/arm/mach-omap2/board-rx51-peripherals.o
+  CC      arch/arm/mach-omap2/board-rx51-video.o
+  CC      kernel/irq/proc.o
+  CC      arch/arm/mach-omap2/board-zoom.o
+  CC      kernel/irq/pm.o
+  CC      arch/arm/mach-omap2/board-zoom-peripherals.o
+  LD      kernel/irq/built-in.o
+  CC      kernel/power/qos.o
+  CC      mm/migrate.o
+  CC      arch/arm/mach-omap2/board-zoom-display.o
+  CC      arch/arm/mach-omap2/board-zoom-debugboard.o
+  CC      kernel/power/main.o
+  CC      fs/bio.o
+  CC      arch/arm/mach-omap2/board-3630sdp.o
+  LD      mm/built-in.o
+  CC      kernel/power/console.o
+  CC      fs/block_dev.o
+  CC      arch/arm/mach-omap2/board-cm-t35.o
+  CC      kernel/power/process.o
+  CC      arch/arm/mach-omap2/board-cm-t3517.o
+  CC      kernel/sched/core.o
+  CC      kernel/power/suspend.o
+  CC      arch/arm/mach-omap2/board-igep0020.o
+  CC      fs/direct-io.o
+  CC      kernel/power/poweroff.o
+  CC      arch/arm/mach-omap2/board-omap3touchbook.o
+  LD      kernel/power/built-in.o
+  CC      fs/mpage.o
+  CC      arch/arm/mach-omap2/board-4430sdp.o
+  CC      arch/arm/mach-omap2/board-omap4panda.o
+  CC      arch/arm/mach-omap2/board-am3517evm.o
+arch/arm/mach-omap2/board-omap4panda.c:39:45: error: linux/platform_data/ram_console.h: No such file or directory
+arch/arm/mach-omap2/board-omap4panda.c:42:31: error: mach/omap4-common.h: No such file or directory
+arch/arm/mach-omap2/board-omap4panda.c:43:23: error: mach/emif.h: No such file or directory
+arch/arm/mach-omap2/board-omap4panda.c:44:32: error: mach/lpddr2-elpida.h: No such file or directory
+arch/arm/mach-omap2/board-omap4panda.c:45:22: error: mach/dmm.h: No such file or directory
+arch/arm/mach-omap2/board-omap4panda.c:52:24: error: plat/board.h: No such file or directory
+arch/arm/mach-omap2/board-omap4panda.c:53:25: error: plat/common.h: No such file or directory
+arch/arm/mach-omap2/board-omap4panda.c:54:22: error: plat/usb.h: No such file or directory
+arch/arm/mach-omap2/board-omap4panda.c:55:22: error: plat/mmc.h: No such file or directory
+arch/arm/mach-omap2/board-omap4panda.c:56:29: error: plat/remoteproc.h: No such file or directory
+arch/arm/mach-omap2/board-omap4panda.c:57:23: error: plat/vram.h: No such file or directory
+arch/arm/mach-omap2/board-omap4panda.c:59:22: error: timer-gp.h: No such file or directory
+arch/arm/mach-omap2/board-omap4panda.c:68:25: error: resetreason.h: No such file or directory
+arch/arm/mach-omap2/board-omap4panda.c: In function 'omap4_panda_init_early':
+arch/arm/mach-omap2/board-omap4panda.c:192: error: implicit declaration of function 'omap2_init_common_devices'
+arch/arm/mach-omap2/board-omap4panda.c: At top level:
+arch/arm/mach-omap2/board-omap4panda.c:247: error: 'MUSB_OTG' undeclared here (not in a function)
+arch/arm/mach-omap2/board-omap4panda.c:253: error: 'omap4430_phy_init' undeclared here (not in a function)
+arch/arm/mach-omap2/board-omap4panda.c:254: error: 'omap4430_phy_exit' undeclared here (not in a function)
+arch/arm/mach-omap2/board-omap4panda.c:255: error: 'omap4430_phy_power' undeclared here (not in a function)
+arch/arm/mach-omap2/board-omap4panda.c:256: error: 'omap4430_phy_set_clk' undeclared here (not in a function)
+arch/arm/mach-omap2/board-omap4panda.c:257: error: 'omap4430_phy_suspend' undeclared here (not in a function)
+arch/arm/mach-omap2/board-omap4panda.c:263: error: 'MMC_CAP_4_BIT_DATA' undeclared here (not in a function)
+arch/arm/mach-omap2/board-omap4panda.c:263: error: 'MMC_CAP_8_BIT_DATA' undeclared here (not in a function)
+arch/arm/mach-omap2/board-omap4panda.c:270: error: 'MMC_CAP_POWER_OFF_CARD' undeclared here (not in a function)
+arch/arm/mach-omap2/board-omap4panda.c:273: error: 'MMC_VDD_165_195' undeclared here (not in a function)
+arch/arm/mach-omap2/board-omap4panda.c:318: error: implicit declaration of function 'OMAP_GPIO_IRQ'
+arch/arm/mach-omap2/board-omap4panda.c:318: error: initializer element is not constant
+arch/arm/mach-omap2/board-omap4panda.c:318: error: (near initialization for 'omap_panda_wlan_data.irq')
+arch/arm/mach-omap2/board-omap4panda.c: In function 'omap4_twl6030_hsmmc_late_init':
+arch/arm/mach-omap2/board-omap4panda.c:341: error: dereferencing pointer to incomplete type
+arch/arm/mach-omap2/board-omap4panda.c:341: error: request for member 'slots' in something not a structure or union
+arch/arm/mach-omap2/board-omap4panda.c:341: error: 'struct omap2_hsmmc_info' has no member named 'card_detect'
+arch/arm/mach-omap2/board-omap4panda.c:341: warning: statement with no effect
+arch/arm/mach-omap2/board-omap4panda.c: In function 'omap4_twl6030_hsmmc_set_late_init':
+arch/arm/mach-omap2/board-omap4panda.c:357: error: dereferencing pointer to incomplete type
+arch/arm/mach-omap2/board-omap4panda.c:357: error: request for member 'init' in something not a structure or union
+arch/arm/mach-omap2/board-omap4panda.c:357: warning: statement with no effect
+arch/arm/mach-omap2/board-omap4panda.c: At top level:
+arch/arm/mach-omap2/board-omap4panda.c:360: error: static declaration of 'omap4_twl6030_hsmmc_init' follows non-static declaration
+arch/arm/mach-omap2/common.h:283: note: previous declaration of 'omap4_twl6030_hsmmc_init' was here
+arch/arm/mach-omap2/board-omap4panda.c: In function 'omap4_twl6030_hsmmc_init':
+arch/arm/mach-omap2/board-omap4panda.c:364: error: implicit declaration of function 'omap2_hsmmc_init'
+arch/arm/mach-omap2/board-omap4panda.c:366: error: 'struct omap2_hsmmc_info' has no member named 'dev'
+arch/arm/mach-omap2/board-omap4panda.c:366: warning: passing argument 1 of 'omap4_twl6030_hsmmc_set_late_init' from incompatible pointer type
+arch/arm/mach-omap2/board-omap4panda.c:346: note: expected 'struct device *' but argument is of type 'struct omap2_hsmmc_info *'
+arch/arm/mach-omap2/board-omap4panda.c: At top level:
+arch/arm/mach-omap2/board-omap4panda.c:493: error: variable 'twl6040_audio' has initializer but incomplete type
+arch/arm/mach-omap2/board-omap4panda.c:495: error: unknown field 'hs_left_step' specified in initializer
+arch/arm/mach-omap2/board-omap4panda.c:495: warning: excess elements in struct initializer
+arch/arm/mach-omap2/board-omap4panda.c:495: warning: (near initialization for 'twl6040_audio')
+arch/arm/mach-omap2/board-omap4panda.c:496: error: unknown field 'hs_right_step' specified in initializer
+arch/arm/mach-omap2/board-omap4panda.c:496: warning: excess elements in struct initializer
+arch/arm/mach-omap2/board-omap4panda.c:496: warning: (near initialization for 'twl6040_audio')
+arch/arm/mach-omap2/board-omap4panda.c:497: error: unknown field 'hf_left_step' specified in initializer
+arch/arm/mach-omap2/board-omap4panda.c:497: warning: excess elements in struct initializer
+arch/arm/mach-omap2/board-omap4panda.c:497: warning: (near initialization for 'twl6040_audio')
+arch/arm/mach-omap2/board-omap4panda.c:498: error: unknown field 'hf_right_step' specified in initializer
+arch/arm/mach-omap2/board-omap4panda.c:498: warning: excess elements in struct initializer
+arch/arm/mach-omap2/board-omap4panda.c:498: warning: (near initialization for 'twl6040_audio')
+arch/arm/mach-omap2/board-omap4panda.c:499: error: unknown field 'hs_switch_dev' specified in initializer
+arch/arm/mach-omap2/board-omap4panda.c:499: warning: excess elements in struct initializer
+arch/arm/mach-omap2/board-omap4panda.c:499: warning: (near initialization for 'twl6040_audio')
+arch/arm/mach-omap2/board-omap4panda.c:500: error: unknown field 'hs_forced_hs_state' specified in initializer
+arch/arm/mach-omap2/board-omap4panda.c:501: warning: excess elements in struct initializer
+arch/arm/mach-omap2/board-omap4panda.c:501: warning: (near initialization for 'twl6040_audio')
+arch/arm/mach-omap2/board-omap4panda.c:504: error: unknown field 'audio' specified in initializer
+arch/arm/mach-omap2/board-omap4panda.c:504: warning: initialization makes integer from pointer without a cast
+arch/arm/mach-omap2/board-omap4panda.c:505: error: unknown field 'audpwron_gpio' specified in initializer
+arch/arm/mach-omap2/board-omap4panda.c:506: error: unknown field 'naudint_irq' specified in initializer
+arch/arm/mach-omap2/board-omap4panda.c:506: error: 'OMAP44XX_IRQ_SYS_2N' undeclared here (not in a function)
+arch/arm/mach-omap2/board-omap4panda.c:506: error: initializer element is not constant
+arch/arm/mach-omap2/board-omap4panda.c:506: error: (near initialization for 'twl6040_codec.offset_cncl_path')
+arch/arm/mach-omap2/board-omap4panda.c:507: error: unknown field 'irq_base' specified in initializer
+arch/arm/mach-omap2/board-omap4panda.c:507: error: 'TWL6040_CODEC_IRQ_BASE' undeclared here (not in a function)
+arch/arm/mach-omap2/board-omap4panda.c:507: error: initializer element is not constant
+arch/arm/mach-omap2/board-omap4panda.c:507: error: (near initialization for 'twl6040_codec.check_defaults')
+arch/arm/mach-omap2/board-omap4panda.c:511: error: unknown field 'irq_base' specified in initializer
+arch/arm/mach-omap2/board-omap4panda.c:511: error: 'TWL6030_IRQ_BASE' undeclared here (not in a function)
+arch/arm/mach-omap2/board-omap4panda.c:511: error: initializer element is not constant
+arch/arm/mach-omap2/board-omap4panda.c:511: error: (near initialization for 'omap4_panda_twldata.clock')
+arch/arm/mach-omap2/board-omap4panda.c:512: error: unknown field 'irq_end' specified in initializer
+arch/arm/mach-omap2/board-omap4panda.c:512: error: 'TWL6030_IRQ_END' undeclared here (not in a function)
+arch/arm/mach-omap2/board-omap4panda.c:512: error: initializer element is not constant
+arch/arm/mach-omap2/board-omap4panda.c:512: error: (near initialization for 'omap4_panda_twldata.bci')
+arch/arm/mach-omap2/board-omap4panda.c:527: error: unknown field 'codec' specified in initializer
+arch/arm/mach-omap2/board-omap4panda.c:527: warning: initialization from incompatible pointer type
+arch/arm/mach-omap2/board-omap4panda.c: In function 'omap4_panda_i2c_init':
+arch/arm/mach-omap2/board-omap4panda.c:542: error: too few arguments to function 'omap4_pmic_init'
+arch/arm/mach-omap2/board-omap4panda.c:542: warning: statement with no effect
+arch/arm/mach-omap2/board-omap4panda.c: At top level:
+arch/arm/mach-omap2/board-omap4panda.c:774: error: unknown field 'hpd_gpio' specified in initializer
+arch/arm/mach-omap2/board-omap4panda.c:774: warning: missing braces around initializer
+arch/arm/mach-omap2/board-omap4panda.c:774: warning: (near initialization for 'omap4_panda_hdmi_device.panel')
+arch/arm/mach-omap2/board-omap4panda.c:802: error: variable 'emif_devices' has initializer but incomplete type
+arch/arm/mach-omap2/board-omap4panda.c:803: error: unknown field 'cs0_device' specified in initializer
+arch/arm/mach-omap2/board-omap4panda.c:803: error: 'lpddr2_elpida_2G_S4_dev' undeclared here (not in a function)
+arch/arm/mach-omap2/board-omap4panda.c:803: warning: excess elements in struct initializer
+arch/arm/mach-omap2/board-omap4panda.c:803: warning: (near initialization for 'emif_devices')
+arch/arm/mach-omap2/board-omap4panda.c:804: error: unknown field 'cs1_device' specified in initializer
+arch/arm/mach-omap2/board-omap4panda.c:805: warning: excess elements in struct initializer
+arch/arm/mach-omap2/board-omap4panda.c:805: warning: (near initialization for 'emif_devices')
+arch/arm/mach-omap2/board-omap4panda.c:863: error: unknown field 'mem_desc' specified in initializer
+arch/arm/mach-omap2/board-omap4panda.c:864: error: unknown field 'region_cnt' specified in initializer
+arch/arm/mach-omap2/board-omap4panda.c:864: warning: missing braces around initializer
+arch/arm/mach-omap2/board-omap4panda.c:864: warning: (near initialization for 'panda_fb_pdata.lcd.panel_name')
+arch/arm/mach-omap2/board-omap4panda.c:865: error: unknown field 'region' specified in initializer
+arch/arm/mach-omap2/board-omap4panda.c:866: warning: braces around scalar initializer
+arch/arm/mach-omap2/board-omap4panda.c:866: warning: (near initialization for 'panda_fb_pdata.lcd.ctrl_name[0]')
+arch/arm/mach-omap2/board-omap4panda.c:867: error: field name not in record or union initializer
+arch/arm/mach-omap2/board-omap4panda.c:867: error: (near initialization for 'panda_fb_pdata.lcd.ctrl_name[0]')
+arch/arm/mach-omap2/board-omap4panda.c:867: warning: large integer implicitly truncated to unsigned type
+arch/arm/mach-omap2/board-omap4panda.c:876: error: 'PLAT_PHYS_OFFSET' undeclared here (not in a function)
+arch/arm/mach-omap2/board-omap4panda.c:876: error: initializer element is not constant
+arch/arm/mach-omap2/board-omap4panda.c:876: error: (near initialization for 'ramconsole_resources[0].start')
+arch/arm/mach-omap2/board-omap4panda.c:877: error: initializer element is not constant
+arch/arm/mach-omap2/board-omap4panda.c:877: error: (near initialization for 'ramconsole_resources[0].end')
+arch/arm/mach-omap2/board-omap4panda.c: In function 'omap4_panda_init':
+arch/arm/mach-omap2/board-omap4panda.c:900: error: implicit declaration of function 'omap_emif_setup_device_details'
+arch/arm/mach-omap2/board-omap4panda.c:902: error: implicit declaration of function 'omap_rev'
+arch/arm/mach-omap2/board-omap4panda.c:902: error: 'OMAP4430_REV_ES1_0' undeclared (first use in this function)
+arch/arm/mach-omap2/board-omap4panda.c:902: error: (Each undeclared identifier is reported only once
+arch/arm/mach-omap2/board-omap4panda.c:902: error: for each function it appears in.)
+arch/arm/mach-omap2/board-omap4panda.c:902: warning: comparison between pointer and integer
+arch/arm/mach-omap2/board-omap4panda.c:910: error: invalid use of undefined type 'struct ram_console_platform_data'
+arch/arm/mach-omap2/board-omap4panda.c:910: error: implicit declaration of function 'omap4_get_resetreason'
+arch/arm/mach-omap2/board-omap4panda.c:910: warning: statement with no effect
+arch/arm/mach-omap2/board-omap4panda.c:915: error: implicit declaration of function 'cpu_is_omap4430'
+arch/arm/mach-omap2/board-omap4panda.c:925: error: implicit declaration of function 'omap_dmm_init'
+arch/arm/mach-omap2/board-omap4panda.c:926: error: implicit declaration of function 'omap_vram_set_sdram_vram'
+arch/arm/mach-omap2/board-omap4panda.c:927: error: implicit declaration of function 'omapfb_set_platform_data'
+arch/arm/mach-omap2/board-omap4panda.c:930: error: implicit declaration of function 'cpu_is_omap446x'
+arch/arm/mach-omap2/board-omap4panda.c:932: error: implicit declaration of function 'omap_tps6236x_board_setup'
+arch/arm/mach-omap2/board-omap4panda.c: In function 'omap4_panda_map_io':
+arch/arm/mach-omap2/board-omap4panda.c:942: error: implicit declaration of function 'omap2_set_globals_443x'
+arch/arm/mach-omap2/board-omap4panda.c:943: error: implicit declaration of function 'omap44xx_map_common_io'
+arch/arm/mach-omap2/board-omap4panda.c: In function 'omap4_panda_reserve':
+arch/arm/mach-omap2/board-omap4panda.c:949: warning: passing argument 1 of 'memblock_remove' makes integer from pointer without a cast
+include/linux/memblock.h:57: note: expected 'phys_addr_t' but argument is of type 'struct resource *'
+arch/arm/mach-omap2/board-omap4panda.c:953: error: implicit declaration of function 'omap_ipu_set_static_mempool'
+arch/arm/mach-omap2/board-omap4panda.c: At top level:
+arch/arm/mach-omap2/board-omap4panda.c:961: error: unknown field 'boot_params' specified in initializer
+arch/arm/mach-omap2/board-omap4panda.c:967: error: 'omap_timer' undeclared here (not in a function)
+arch/arm/mach-omap2/board-omap4panda.c:967: error: initializer element is not constant
+arch/arm/mach-omap2/board-omap4panda.c:967: error: (near initialization for '__mach_desc_OMAP4_PANDA.timer')
+make[1]: *** [arch/arm/mach-omap2/board-omap4panda.o] Error 1
+make[1]: *** Waiting for unfinished jobs....
+  CC      fs/ioprio.o
+make: *** [arch/arm/mach-omap2] Error 2
+make: *** Waiting for unfinished jobs....
+  CC      kernel/time/timekeeping.o
+  CC      kernel/trace/trace_clock.o
+  CC      kernel/trace/ring_buffer.o
+  CC      fs/proc_namespace.o
+  CC      kernel/time/ntp.o
+  CC      fs/cramfs/inode.o
+  CC      kernel/time/clocksource.o
+  CC      fs/cramfs/uncompress.o
+  LD      fs/cramfs/cramfs.o
+  LD      fs/cramfs/built-in.o
+  CC      fs/debugfs/inode.o
+  CC      kernel/sched/clock.o
+  CC      kernel/time/jiffies.o
+  CC      kernel/sched/cputime.o
+  CC      kernel/trace/trace.o
+  CC      kernel/time/timer_list.o
+  CC      fs/debugfs/file.o
+  CC      kernel/sched/idle_task.o
+  CC      kernel/sched/fair.o
+  CC      kernel/time/timeconv.o
+  LD      fs/debugfs/debugfs.o
+  LD      fs/debugfs/built-in.o
+  CC      kernel/time/posix-clock.o
+  CC      fs/devpts/inode.o
+  LD      fs/devpts/devpts.o
+  LD      fs/devpts/built-in.o
+  LD      fs/exofs/built-in.o
+  CC      fs/ext2/balloc.o
+  CC      kernel/time/alarmtimer.o
+  CC      fs/ext2/dir.o
+  CC      kernel/time/clockevents.o
+  CC      kernel/sched/rt.o
+  CC      kernel/trace/trace_output.o
+  CC      kernel/time/tick-common.o
+  CC      fs/ext2/file.o
+  CC      kernel/time/tick-broadcast.o
+  CC      fs/ext2/ialloc.o
+  CC      kernel/sched/stop_task.o
+  CC      kernel/time/tick-oneshot.o
+  CC      kernel/sched/cpupri.o
+  CC      kernel/time/tick-sched.o
+  CC      kernel/sched/stats.o
+  CC      kernel/trace/trace_stat.o
+  CC      fs/ext2/inode.o
+  CC      kernel/sched/debug.o
+  CC      kernel/trace/trace_printk.o
+  CC      kernel/time/timer_stats.o
+  CC      fs/ext2/ioctl.o
+  LD      kernel/sched/built-in.o
+  LD      kernel/time/built-in.o
+  CC      kernel/trace/trace_sched_switch.o
+  CC      kernel/trace/trace_nop.o
+  CC      fs/ext2/namei.o
+  CC      kernel/trace/blktrace.o
+  CC      kernel/freezer.o
+  CC      kernel/profile.o
+  CC      fs/ext2/super.o
+  CC      kernel/trace/trace_events.o
+  CC      kernel/trace/trace_export.o
+  CC      fs/ext2/symlink.o
+  CC      fs/ext3/balloc.o
+  CC      fs/ext3/bitmap.o
+  LD      fs/ext2/ext2.o
+  LD      fs/ext2/built-in.o
+  CC      fs/ext3/dir.o
+  CC      kernel/trace/trace_event_perf.o
+  CC      kernel/stacktrace.o
+  CC      fs/ext4/balloc.o
+  CC      fs/fat/cache.o
+  CC      kernel/trace/trace_events_filter.o
+  CC      fs/ext3/file.o
+  CC      fs/fat/dir.o
+  CC      fs/ext3/fsync.o
+  CC      fs/ext4/bitmap.o
+  CC      fs/ext3/ialloc.o
+  CC      fs/ext4/dir.o
+  CC      kernel/trace/trace_kprobe.o
+  CC      fs/fat/fatent.o
+  CC      fs/ext3/inode.o
+  CC      fs/ext4/file.o
+  CC      kernel/trace/power-traces.o
+  CC      fs/ext4/fsync.o
+  CC      fs/fat/file.o
+  CC      kernel/trace/rpm-traces.o
+  CC      fs/ext4/ialloc.o
+  CC      fs/ext3/ioctl.o
+  CC      fs/fat/inode.o
+  CC      kernel/trace/trace_probe.o
+  CC      fs/ext3/namei.o
+  CC      fs/ext4/inode.o
+  LD      kernel/trace/built-in.o
+  CC      kernel/mutex-debug.o
+  CC      fs/fat/misc.o
+  CC      kernel/lockdep.o
+  CC      fs/fat/nfs.o
+  CC      fs/ext3/super.o
+  CC      fs/fat/namei_msdos.o
+  CC      fs/fat/namei_vfat.o
+  LD      fs/fat/fat.o
+  LD      fs/fat/vfat.o
+  LD      fs/fat/msdos.o
+  LD      fs/fat/built-in.o
+  CC      fs/ext3/symlink.o
+  CC      fs/ext4/page-io.o
+  CC      kernel/lockdep_proc.o
+  CC      fs/jbd/transaction.o
+  CC      fs/ext4/ioctl.o
+  CC      kernel/futex.o
+  CC      fs/ext4/namei.o
+  CC      fs/ext3/hash.o
+  CC      fs/jbd/commit.o
+  CC      fs/ext3/resize.o
+  CC      kernel/rtmutex.o
+  CC      kernel/smp.o
+  CC      fs/jbd/recovery.o
+  CC      fs/ext3/ext3_jbd.o
+  CC      kernel/spinlock.o
+  LD      fs/ext3/ext3.o
+  LD      fs/ext3/built-in.o
+  CC      fs/jbd2/transaction.o
+  CC      fs/jbd/checkpoint.o
+  CC      fs/ext4/super.o
+  CC      kernel/uid16.o
+  CC      kernel/module.o
+  CC      fs/jbd/revoke.o
+  CC      fs/jbd/journal.o
+  CC      fs/jbd2/commit.o
+  CC      fs/jbd2/recovery.o
+  CC      kernel/kallsyms.o
+  CC      fs/jbd2/checkpoint.o
+  LD      fs/jbd/jbd.o
+  LD      fs/jbd/built-in.o
+  CC      kernel/acct.o
+  CC      fs/ext4/symlink.o
+  CC      fs/jbd2/revoke.o
+  CC      kernel/kexec.o
+  CC      fs/ext4/hash.o
+  CC      fs/jbd2/journal.o
+  CC      fs/jffs2/compr.o
+  GZIP    kernel/config_data.gz
+  CC      kernel/stop_machine.o
+  CC      fs/jffs2/dir.o
+  CC      kernel/kprobes.o
+  CC      fs/jffs2/file.o
+  CC      fs/jffs2/ioctl.o
+  CC      fs/jffs2/nodelist.o
+  CC      kernel/rcutree.o
+  LD      fs/jbd2/jbd2.o
+  LD      fs/jbd2/built-in.o
+  CC      kernel/utsname_sysctl.o
+  CC      fs/ext4/resize.o
+  CC      fs/jffs2/malloc.o
+  CC      fs/lockd/clntlock.o
+  CC      fs/jffs2/read.o
+  CC      fs/jffs2/nodemgmt.o
+  CC      fs/lockd/clntproc.o
+  CC      kernel/tracepoint.o
+  CC      fs/ext4/extents.o
+  CC      fs/jffs2/readinode.o
+  CC      kernel/elfcore.o
+  CC      kernel/irq_work.o
+  CC      kernel/cpu_pm.o
+  CC      fs/lockd/clntxdr.o
+  CC      fs/jffs2/write.o
+  CC      kernel/time.o
+  CC      fs/jffs2/scan.o
+  CC      fs/lockd/host.o
+  CHK     kernel/config_data.h
+  UPD     kernel/config_data.h
+  CC      kernel/configs.o
+  LD      kernel/built-in.o
+  CC      fs/ext4/ext4_jbd2.o
+  CC      fs/jffs2/gc.o
+  CC      fs/lockd/svc.o
+  CC      fs/jffs2/symlink.o
+  CC      fs/ext4/migrate.o
+  CC      fs/nfs/client.o
+  CC      fs/jffs2/build.o
+  CC      fs/ext4/mballoc.o
+  CC      fs/lockd/svclock.o
+  CC      fs/jffs2/erase.o
+  CC      fs/jffs2/background.o
+  CC      fs/lockd/svcshare.o
+  CC      fs/nfs/dir.o
+  CC      fs/jffs2/fs.o
+  CC      fs/lockd/svcproc.o
+  CC      fs/jffs2/writev.o
+  CC      fs/jffs2/super.o
+  CC      fs/lockd/svcsubs.o
+  CC      fs/jffs2/debug.o
+  CC      fs/nfs/file.o
+  CC      fs/jffs2/wbuf.o
+  CC      fs/ext4/block_validity.o
+  CC      fs/lockd/mon.o
+  CC      fs/ext4/move_extent.o
+  CC      fs/jffs2/xattr.o
+  CC      fs/lockd/xdr.o
+  CC      fs/nfs/getroot.o
+  CC      fs/ext4/mmp.o
+  CC      fs/jffs2/xattr_trusted.o
+  CC      fs/nfs/inode.o
+  CC      fs/lockd/grace.o
+  CC      fs/jffs2/xattr_user.o
+  CC      fs/ext4/indirect.o
+  CC      fs/jffs2/security.o
+  CC      fs/lockd/clnt4xdr.o
+  CC      fs/jffs2/acl.o
+  CC      fs/jffs2/compr_rubin.o
+  CC      fs/lockd/xdr4.o
+  CC      fs/ext4/extents_status.o
+  CC      fs/nfs/super.o
+  CC      fs/jffs2/compr_rtime.o
+  CC      fs/jffs2/compr_zlib.o
+  CC      fs/lockd/svc4proc.o
+  CC      fs/ext4/xattr.o
+  CC      fs/jffs2/compr_lzo.o
+  CC      fs/jffs2/summary.o
+  LD      fs/lockd/lockd.o
+  LD      fs/lockd/built-in.o
+  CC      fs/nfs/direct.o
+  LD      fs/jffs2/jffs2.o
+  CC      fs/ext4/xattr_user.o
+  LD      fs/jffs2/built-in.o
+  CC      fs/nfs/pagelist.o
+  CC      fs/ext4/xattr_trusted.o
+  CC      fs/nfs/read.o
+  CC      fs/ext4/inline.o
+  CC      fs/nfs/symlink.o
+  CC      fs/nfs/unlink.o
+  CC      fs/nfs/write.o
+  LD      fs/ext4/ext4.o
+  LD      fs/ext4/built-in.o
+  CC      fs/nfs_common/nfsacl.o
+  CC      fs/nfs/namespace.o
+  CC      fs/nfs/mount_clnt.o
+  LD      fs/nfs_common/nfs_acl.o
+  LD      fs/nfs_common/built-in.o
+  CC      fs/nfs/dns_resolve.o
+  CC      fs/nls/nls_base.o
+  CC      fs/nls/nls_cp437.o
+  CC      fs/notify/fsnotify.o
+  CC      fs/nls/nls_iso8859-1.o
+  CC      fs/nfs/cache_lib.o
+  LD      fs/nls/built-in.o
+  CC      fs/notify/notification.o
+  CC      fs/notify/group.o
+  CC      fs/nfs/nfsroot.o
+  CC      fs/nfs/sysctl.o
+  CC      fs/notify/inode_mark.o
+  CC      fs/proc/mmu.o
+  CC      fs/notify/mark.o
+  CC      fs/proc/task_mmu.o
+  CC      fs/proc/inode.o
+  CC      fs/nfs/nfs2super.o
+  CC      fs/notify/vfsmount_mark.o
+  CC      fs/nfs/proc.o
+  CC      fs/notify/fdinfo.o
+  CC      fs/proc/root.o
+  CC      fs/proc/base.o
+  CC      fs/notify/dnotify/dnotify.o
+  CC      fs/nfs/nfs2xdr.o
+  LD      fs/notify/dnotify/built-in.o
+  LD      fs/notify/fanotify/built-in.o
+  CC      fs/notify/inotify/inotify_fsnotify.o
+  CC      fs/proc/generic.o
+  CC      fs/notify/inotify/inotify_user.o
+  CC      fs/nfs/nfs3super.o
+  CC      fs/nfs/nfs3client.o
+  CC      fs/proc/array.o
+  LD      fs/notify/inotify/built-in.o
+  LD      fs/notify/built-in.o
+  CC      fs/nfs/nfs3proc.o
+  CC      fs/quota/dquot.o
+  CC      fs/ramfs/inode.o
+  CC      fs/proc/proc_tty.o
+  CC      fs/ramfs/file-mmu.o
+  CC      fs/proc/fd.o
+  CC      fs/nfs/nfs3xdr.o
+  LD      fs/ramfs/ramfs.o
+  LD      fs/ramfs/built-in.o
+  CC      fs/proc/cmdline.o
+  CC      fs/nfs/nfs3acl.o
+  CC      fs/proc/consoles.o
+  CC      fs/proc/cpuinfo.o
+  CC      fs/proc/devices.o
+  CC      fs/proc/interrupts.o
+  CC      fs/quota/quota_v2.o
+  CC      fs/proc/loadavg.o
+  CC      fs/nfs/nfs4proc.o
+  CC      fs/quota/quota_tree.o
+  CC      fs/proc/meminfo.o
+  CC      fs/sysfs/inode.o
+  CC      fs/proc/stat.o
+  CC      fs/sysfs/file.o
+  CC      fs/quota/quota.o
+  CC      fs/proc/uptime.o
+  CC      fs/quota/kqid.o
+  CC      fs/proc/version.o
+  CC      fs/sysfs/dir.o
+  LD      fs/quota/built-in.o
+  CC      fs/nfs/nfs4xdr.o
+  CC      fs/proc/softirqs.o
+  CC      fs/proc/namespaces.o
+  CC      fs/sysfs/symlink.o
+  CC      fs/proc/self.o
+  CC      fs/ubifs/shrinker.o
+  CC      fs/sysfs/mount.o
+  CC      fs/proc/proc_sysctl.o
+  CC      fs/ubifs/journal.o
+  CC      fs/sysfs/bin.o
+  CC      fs/sysfs/group.o
+  CC      fs/proc/proc_net.o
+  LD      fs/sysfs/built-in.o
+  CC      fs/proc/proc_devtree.o
+  CC      fs/ubifs/file.o
+  CC      fs/nfs/nfs4state.o
+  CC      fs/nfs/nfs4renewd.o
+  CC      fs/proc/kmsg.o
+  CC      fs/proc/page.o
+  CC      fs/ubifs/dir.o
+  CC      fs/ubifs/super.o
+  LD      fs/proc/proc.o
+  LD      fs/proc/built-in.o
+  CC      fs/nfs/nfs4super.o
+  CC      fs/nfs/nfs4file.o
+  CC      fs/eventpoll.o
+  CC      fs/ubifs/sb.o
+  CC      fs/anon_inodes.o
+  CC      fs/nfs/delegation.o
+  CC      fs/ubifs/io.o
+  CC      fs/ubifs/tnc.o
+  CC      fs/nfs/idmap.o
+  CC      fs/ubifs/master.o
+  CC      fs/ubifs/scan.o
+  CC      fs/nfs/callback.o
+  CC      fs/nfs/callback_xdr.o
+  CC      fs/signalfd.o
+  CC      fs/ubifs/replay.o
+  CC      fs/ubifs/log.o
+  CC      fs/nfs/callback_proc.o
+  CC      fs/timerfd.o
+  CC      fs/eventfd.o
+  CC      fs/ubifs/commit.o
+  CC      fs/nfs/nfs4namespace.o
+  CC      fs/nfs/nfs4getroot.o
+  CC      fs/ubifs/gc.o
+  CC      fs/ubifs/orphan.o
+  CC      fs/aio.o
+  CC      fs/nfs/nfs4client.o
+  CC      fs/locks.o
+  CC      fs/ubifs/budget.o
+  CC      fs/ubifs/find.o
+  CC      fs/nfs/nfs4sysctl.o
+  CC      fs/ubifs/tnc_commit.o
+  CC      fs/ubifs/compress.o
+  CC      fs/ubifs/lpt.o
+  LD      fs/nfs/nfs.o
+  LD      fs/nfs/nfsv2.o
+  LD      fs/nfs/nfsv3.o
+  LD      fs/nfs/nfsv4.o
+  LD      fs/nfs/built-in.o
+  CC      fs/ubifs/lprops.o
+  CC      fs/binfmt_misc.o
+  CC      fs/binfmt_script.o
+  CC      fs/binfmt_elf.o
+  CC      fs/mbcache.o
+  CC      fs/ubifs/recovery.o
+  CC      fs/posix_acl.o
+  CC      fs/ubifs/ioctl.o
+  CC      fs/ubifs/lpt_commit.o
+  CC      fs/xattr_acl.o
+  CC      fs/ubifs/tnc_misc.o
+  CC      fs/ubifs/xattr.o
+  CC      fs/coredump.o
+  CC      fs/ubifs/debug.o
+  CC      fs/dcookies.o
+  LD      fs/ubifs/ubifs.o
+  LD      fs/ubifs/built-in.o
+  LD      fs/built-in.o

@@ -1,0 +1,2 @@
+cp -a arch/arm/boot/zImage /home/chris/Work/panda_work/android/device/ti/panda/kernel;
+cp -a arch/arm/boot/zImage /home/chris/Work/panda_work/android/out/target/product/panda;
